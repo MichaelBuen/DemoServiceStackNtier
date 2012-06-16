@@ -1,0 +1,9 @@
+C:\Users\Michael\_CODE\ServiceStackNtier\ServiceStackNtier\bin\Debug\ServiceStackNtier.exe
+C:\Users\Michael\_CODE\ServiceStackNtier\ServiceStackNtier\bin\Debug\ServiceStackNtier.pdb
+C:\Users\Michael\_CODE\ServiceStackNtier\ServiceStackNtier\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Michael\_CODE\ServiceStackNtier\ServiceStackNtier\obj\x86\Debug\ServiceStackNtier.Properties.Resources.resources
+C:\Users\Michael\_CODE\ServiceStackNtier\ServiceStackNtier\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Michael\_CODE\ServiceStackNtier\ServiceStackNtier\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Michael\_CODE\ServiceStackNtier\ServiceStackNtier\obj\x86\Debug\ServiceStackNtier.exe
+C:\Users\Michael\_CODE\ServiceStackNtier\ServiceStackNtier\obj\x86\Debug\ServiceStackNtier.pdb
+C:\Users\Michael\_CODE\ServiceStackNtier\ServiceStackNtier\obj\x86\Debug\ServiceStackNtier.Form1.resources

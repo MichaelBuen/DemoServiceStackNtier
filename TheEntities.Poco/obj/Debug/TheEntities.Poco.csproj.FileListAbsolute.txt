@@ -1,0 +1,5 @@
+C:\Users\Michael\_CODE\ServiceStackNtier\TheEntities.Poco\bin\Debug\TheEntities.Poco.dll
+C:\Users\Michael\_CODE\ServiceStackNtier\TheEntities.Poco\bin\Debug\TheEntities.Poco.pdb
+C:\Users\Michael\_CODE\ServiceStackNtier\TheEntities.Poco\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Michael\_CODE\ServiceStackNtier\TheEntities.Poco\obj\Debug\TheEntities.Poco.dll
+C:\Users\Michael\_CODE\ServiceStackNtier\TheEntities.Poco\obj\Debug\TheEntities.Poco.pdb

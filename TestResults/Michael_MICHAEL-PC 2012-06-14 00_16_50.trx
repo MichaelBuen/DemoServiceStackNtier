@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8eec7993-7b55-44f6-ae8c-fc84ff9c07a0" name="Michael@MICHAEL-PC 2012-06-14 00:16:50" runUser="Michael-PC\Michael" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4e9a2632-5993-459a-aed3-9b59aa18db47">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Michael_MICHAEL-PC 2012-06-14 00_16_50">
+      <DeploymentItem filename="C:\Users\Michael\_CODE\ServiceStackNtier\packages\EntityFramework.4.3.1\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\ServiceStackNtier\TheEntities.Poco\bin\Debug\TheEntities.Poco.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\Ienablemuch.ToTheEfnhX\Ienablemuch.ToTheEfnhX.EntityFramework\bin\Release\Ienablemuch.ToTheEfnhX.EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\DitTO\Ienablemuch.DitTO.ToTheEfnhX.StubAssigner\bin\Release\Ienablemuch.DitTO.ToTheEfnhX.StubAssigner.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\ServiceStackNtier\TheServiceStack\bin\TheServiceStack.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\ServiceStackNtier\TheEntities.Dto\bin\Debug\TheEntities.Dto.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\Ienablemuch.ToTheEfnhX\ToTheEfnhX\bin\Release\Ienablemuch.ToTheEfnhX.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\DitTO\Ienablemuch.DitTO.ToTheEfnhX.StubAssigner\bin\Release\Ienablemuch.DitTO.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-14T00:16:50.4940000+08:00" queuing="2012-06-14T00:16:51.5790000+08:00" start="2012-06-14T00:16:51.7560000+08:00" finish="2012-06-14T00:16:55.4870000+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_Delete" storage="c:\users\michael\_code\servicestackntier\testtheservicestack\bin\debug\testentityframework.dll" id="037ddee0-fb80-4b57-17d0-77d723e4dbec">
+      <Execution id="3640dd0a-6b2c-4f7d-b37f-c5262a263acf" />
+      <TestMethod codeBase="C:/Users/Michael/_CODE/ServiceStackNtier/TestTheServiceStack/bin/Debug/TestEntityFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTheServiceStack.Tests, TestEntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Delete" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="037ddee0-fb80-4b57-17d0-77d723e4dbec" executionId="3640dd0a-6b2c-4f7d-b37f-c5262a263acf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3640dd0a-6b2c-4f7d-b37f-c5262a263acf" testId="037ddee0-fb80-4b57-17d0-77d723e4dbec" testName="Test_Delete" computerName="MICHAEL-PC" duration="00:00:01.6097432" startTime="2012-06-14T00:16:51.8780000+08:00" endTime="2012-06-14T00:16:53.8680000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3640dd0a-6b2c-4f7d-b37f-c5262a263acf">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestTheServiceStack.Tests.Test_Delete threw exception: 
+Ienablemuch.ToTheEfnhX.DbChangesConcurrencyException: Row has been modified or deleted since you last loaded it</Message>
+          <StackTrace>    at Ienablemuch.ToTheEfnhX.EntityFramework.Repository`1.Delete(Object id, Byte[] version) in C:\Users\Michael\_CODE\Ienablemuch.ToTheEfnhX\Ienablemuch.ToTheEfnhX.EntityFramework\EfRepository.cs:line 855
+   at TestTheServiceStack.Tests.Test_Delete() in C:\Users\Michael\_CODE\ServiceStackNtier\TestTheServiceStack\Tests.cs:line 102
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

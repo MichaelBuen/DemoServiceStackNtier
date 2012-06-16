@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7d89b097-29d2-4b05-8caf-660442710147" name="Michael@MICHAEL-PC 2012-06-13 11:50:25" runUser="Michael-PC\Michael" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4e9a2632-5993-459a-aed3-9b59aa18db47">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\Michael\_CODE\ServiceStackNtier\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Michael_MICHAEL-PC 2012-06-13 11_50_25">
+      <DeploymentItem filename="C:\Users\Michael\_CODE\ServiceStackNtier\TheEntities.Poco\bin\Debug\TheEntities.Poco.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\Ienablemuch.ToTheEfnhX\Ienablemuch.ToTheEfnhX.EntityFramework\bin\Release\Ienablemuch.ToTheEfnhX.EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\DitTO\Ienablemuch.DitTO.ToTheEfnhX.StubAssigner\bin\Release\Ienablemuch.DitTO.ToTheEfnhX.StubAssigner.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\ServiceStackNtier\packages\EntityFramework.4.3.1\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\ServiceStackNtier\TheEntities.Dto\bin\Debug\TheEntities.Dto.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\ServiceStackNtier\TheServiceStack\bin\TheServiceStack.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\Ienablemuch.ToTheEfnhX\ToTheEfnhX\bin\Release\Ienablemuch.ToTheEfnhX.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\DitTO\Ienablemuch.DitTO.ToTheEfnhX.StubAssigner\bin\Release\Ienablemuch.DitTO.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-13T11:50:25.0290000+08:00" queuing="2012-06-13T11:50:25.0790000+08:00" start="2012-06-13T11:50:25.1060000+08:00" finish="2012-06-13T11:50:26.6910000+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_null_on_EF_Repo" storage="c:\users\michael\_code\servicestackntier\testtheservicestack\bin\debug\testentityframework.dll" id="19fa4302-4c6a-982d-996e-bf0d19114c28">
+      <Execution id="73a3925e-58dd-41b5-865d-bd07956440b5" />
+      <TestMethod codeBase="C:/Users/Michael/_CODE/ServiceStackNtier/TestTheServiceStack/bin/Debug/TestEntityFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTheServiceStack.Tests, TestEntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_null_on_EF_Repo" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="19fa4302-4c6a-982d-996e-bf0d19114c28" executionId="73a3925e-58dd-41b5-865d-bd07956440b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="73a3925e-58dd-41b5-865d-bd07956440b5" testId="19fa4302-4c6a-982d-996e-bf0d19114c28" testName="Test_null_on_EF_Repo" computerName="MICHAEL-PC" duration="00:00:01.2246794" startTime="2012-06-13T11:50:25.1240000+08:00" endTime="2012-06-13T11:50:26.5890000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73a3925e-58dd-41b5-865d-bd07956440b5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsNull failed. </Message>
+          <StackTrace>   at TestTheServiceStack.Tests.Test_null_on_EF_Repo() in C:\Users\Michael\_CODE\ServiceStackNtier\TestTheServiceStack\Tests.cs:line 55
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

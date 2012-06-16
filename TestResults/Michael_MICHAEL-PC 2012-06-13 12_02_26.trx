@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bdfdf1fd-801f-4b37-ac37-f29ec52340e8" name="Michael@MICHAEL-PC 2012-06-13 12:02:26" runUser="Michael-PC\Michael" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4e9a2632-5993-459a-aed3-9b59aa18db47">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Michael_MICHAEL-PC 2012-06-13 12_02_26">
+      <DeploymentItem filename="C:\Users\Michael\_CODE\ServiceStackNtier\packages\EntityFramework.4.3.1\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\ServiceStackNtier\TheEntities.Poco\bin\Debug\TheEntities.Poco.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\Ienablemuch.ToTheEfnhX\Ienablemuch.ToTheEfnhX.EntityFramework\bin\Release\Ienablemuch.ToTheEfnhX.EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\DitTO\Ienablemuch.DitTO.ToTheEfnhX.StubAssigner\bin\Release\Ienablemuch.DitTO.ToTheEfnhX.StubAssigner.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\ServiceStackNtier\TheServiceStack\bin\TheServiceStack.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\ServiceStackNtier\TheEntities.Dto\bin\Debug\TheEntities.Dto.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\Ienablemuch.ToTheEfnhX\ToTheEfnhX\bin\Release\Ienablemuch.ToTheEfnhX.dll" />
+      <DeploymentItem filename="C:\Users\Michael\_CODE\DitTO\Ienablemuch.DitTO.ToTheEfnhX.StubAssigner\bin\Release\Ienablemuch.DitTO.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-13T12:02:26.1720000+08:00" queuing="2012-06-13T12:02:26.2390000+08:00" start="2012-06-13T12:02:26.2590000+08:00" finish="2012-06-13T12:02:27.9630000+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_null_on_EF_Repo_via_dto" storage="c:\users\michael\_code\servicestackntier\testtheservicestack\bin\debug\testentityframework.dll" id="3d5ef6a3-efe7-5951-3f62-790487174db7">
+      <Execution id="356accb1-4419-40c2-b963-ce779c8240f9" />
+      <TestMethod codeBase="C:/Users/Michael/_CODE/ServiceStackNtier/TestTheServiceStack/bin/Debug/TestEntityFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTheServiceStack.Tests, TestEntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_null_on_EF_Repo_via_dto" />
+    </UnitTest>
+    <UnitTest name="Test_null_on_EF_Repo" storage="c:\users\michael\_code\servicestackntier\testtheservicestack\bin\debug\testentityframework.dll" id="19fa4302-4c6a-982d-996e-bf0d19114c28">
+      <Execution id="ab3a30c6-4756-4c6e-b847-94700bc2f6a1" />
+      <TestMethod codeBase="C:/Users/Michael/_CODE/ServiceStackNtier/TestTheServiceStack/bin/Debug/TestEntityFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTheServiceStack.Tests, TestEntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_null_on_EF_Repo" />
+    </UnitTest>
+    <UnitTest name="TestNullOnEF" storage="c:\users\michael\_code\servicestackntier\testtheservicestack\bin\debug\testentityframework.dll" id="9b92cebd-f006-eeaf-81a9-0b21d8d7196f">
+      <Execution id="b85edbfc-a71f-46ab-9642-e691a2adc566" />
+      <TestMethod codeBase="C:/Users/Michael/_CODE/ServiceStackNtier/TestTheServiceStack/bin/Debug/TestEntityFramework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestTheServiceStack.Tests, TestEntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNullOnEF" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="19fa4302-4c6a-982d-996e-bf0d19114c28" executionId="ab3a30c6-4756-4c6e-b847-94700bc2f6a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d5ef6a3-efe7-5951-3f62-790487174db7" executionId="356accb1-4419-40c2-b963-ce779c8240f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b92cebd-f006-eeaf-81a9-0b21d8d7196f" executionId="b85edbfc-a71f-46ab-9642-e691a2adc566" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ab3a30c6-4756-4c6e-b847-94700bc2f6a1" testId="19fa4302-4c6a-982d-996e-bf0d19114c28" testName="Test_null_on_EF_Repo" computerName="MICHAEL-PC" duration="00:00:01.3419632" startTime="2012-06-13T12:02:26.2740000+08:00" endTime="2012-06-13T12:02:27.8490000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab3a30c6-4756-4c6e-b847-94700bc2f6a1">
+    </UnitTestResult>
+    <UnitTestResult executionId="356accb1-4419-40c2-b963-ce779c8240f9" testId="3d5ef6a3-efe7-5951-3f62-790487174db7" testName="Test_null_on_EF_Repo_via_dto" computerName="MICHAEL-PC" duration="00:00:00.0610666" startTime="2012-06-13T12:02:27.8530000+08:00" endTime="2012-06-13T12:02:27.9200000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="356accb1-4419-40c2-b963-ce779c8240f9">
+    </UnitTestResult>
+    <UnitTestResult executionId="b85edbfc-a71f-46ab-9642-e691a2adc566" testId="9b92cebd-f006-eeaf-81a9-0b21d8d7196f" testName="TestNullOnEF" computerName="MICHAEL-PC" duration="00:00:00.0080389" startTime="2012-06-13T12:02:27.9230000+08:00" endTime="2012-06-13T12:02:27.9350000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b85edbfc-a71f-46ab-9642-e691a2adc566">
+    </UnitTestResult>
+  </Results>
+</TestRun>

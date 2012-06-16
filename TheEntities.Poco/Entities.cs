@@ -1,0 +1,88 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+
+namespace TheEntities.Poco
+{
+
+    public class Country
+    {
+        public virtual int CountryId { get; set; }
+        public virtual string CountryName { get; set; }
+
+        public virtual IList<Language> Languages { get; set; }
+    }
+
+
+    public class Language
+    {
+        public virtual int LanguageId { get; set; }
+        public virtual string LanguageName { get; set; }
+
+        public virtual IList<Country> Countries { get; set; }
+    }
+
+
+
+    public class Customer
+    {
+        public virtual int CustomerId { get; set; }
+
+        public virtual string CustomerName { get; set; }
+        public virtual Country Country { get; set; }
+        public virtual string Address1 { get; set; }
+        public virtual int MemberYear { get; set; }        
+    }
+
+    public class Order
+    {
+        public virtual int OrderId { get; set; }
+        
+        public virtual Customer Customer { get; set; }
+        public virtual string OrderDescription { get; set; }
+        public virtual DateTime OrderDate { get; set; }
+       
+        public virtual IList<OrderLine> OrderLines { get; set; }
+
+        public virtual byte[] RowVersion { get; set; }
+    }
+
+    public class OrderLine
+    {
+        public virtual Order Order { get; set; }
+
+        public virtual int OrderLineId { get; set; }
+    
+        public virtual Product Product { get; set; }
+        public virtual int Quantity { get; set; }
+        public virtual decimal Price { get; set; }
+        public virtual decimal Amount { get; set; }
+        public virtual Product Freebie { get; set; }
+
+        public virtual IList<Comment> Comments { get; set; }
+    }
+
+
+    public class Product
+    {
+        public virtual int ProductId { get; set; }
+        public virtual string ProductName { get; set; }
+        public virtual string ProductDescription { get; set; }
+    }
+
+
+    public class Comment
+    {
+        public virtual OrderLine OrderLine { get; set; }
+
+        public virtual int CommentId { get; set; }
+        public virtual string TheComment { get; set; }
+    }
+
+
+
+
+
+}
