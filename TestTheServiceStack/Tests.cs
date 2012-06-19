@@ -48,7 +48,7 @@ namespace TestTheServiceStack
             var repo = new Ienablemuch.ToTheEfnhX.EntityFramework.Repository<Order>(db);
 
             // Order o = db.Set<Order>().Single(x => x.OrderId == 1);
-            Order o = repo.GetCascade(1);
+            Order o = repo.GetEager(1);
 
             // what a work-around! 
             // http://www.codetuning.net/blog/post/Understanding-Entity-Framework-Associations.aspx
